@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import React, { Component } from "react";
 import "./App.css";
 
 import Header from "./components/header";
@@ -13,9 +14,11 @@ class App extends Component {
     return (
       <div ClassName="App">
         <Header />
+        <Main />
+        <Work />
+        <Footer />
       </div>
     );
   }
 }
-
 export default App;
