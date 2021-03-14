@@ -6,13 +6,16 @@ import Main from "./components/main";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
 import RecentWork from "./components/work";
+import { render } from "react-dom";
 
-function App() {
-  return <Header />;
-  return <Main />;
-  return <Contact />;
-  return <RecentWork />;
-  return <Footer />;
+class App extends Component {
+  render() {
+    return (
+      <div ClassName="App">
+        <Header />
+      </div>
+    );
+  }
 }
 
 export default App;
