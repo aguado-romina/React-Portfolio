@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../images/Profile.pdf";
 
 function Main() {
   return (
@@ -20,7 +21,7 @@ function Main() {
       </p>
       <ul className="actions">
         <li>
-          <a href="images/Profile.pdf" target="_blank" className="button">
+          <a href={Resume} target="_blank" className="button">
             Resume
           </a>
         </li>
