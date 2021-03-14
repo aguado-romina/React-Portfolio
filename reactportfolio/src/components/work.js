@@ -1,4 +1,8 @@
 import React from "react";
+import Password from "../images/GIF/passwordgenerator.gif";
+import Readme from "../images/README.png";
+import Pochidoeggu from "../images/GIF/Pōchidoeggu.gif";
+import Beerday from "../images/GIF/beerDay.gif";
 
 function Work() {
   return (
@@ -6,11 +10,8 @@ function Work() {
       <h2>Recent Work</h2>
       <div className="row">
         <article className="col-6 col-12-xsmall work-item">
-          <a
-            href="images/GIF/passwordgenerator.gif"
-            className="image fit thumb"
-          >
-            <img src="images/password-generator.png" alt="" />
+          <a href={Password} className="image fit thumb">
+            <img src={Password} alt="" />
           </a>
           <h3>Password Generator</h3>
           <p>
@@ -22,8 +23,8 @@ function Work() {
           </p>
         </article>
         <article className="col-6 col-12-xsmall work-item">
-          <a href="images/README.png" className="image fit thumb">
-            <img src="images/README.png" alt="" />
+          <a href={Readme} className="image fit thumb">
+            <img src={Readme} alt="" />
           </a>
           <h3>README Generator</h3>
           <p>
@@ -35,8 +36,8 @@ function Work() {
           </p>
         </article>
         <article className="col-6 col-12-xsmall work-item">
-          <a href="images/GIF/Pōchidoeggu.gif" className="image fit thumb">
-            <img src="images/pochidoeggu.png" alt="" />
+          <a href={Pochidoeggu} className="image fit thumb">
+            <img src={Pochidoeggu} alt="" />
           </a>
           <h3>Pochidoeggu</h3>
           <p>
@@ -47,8 +48,8 @@ function Work() {
           </p>
         </article>
         <article className="col-6 col-12-xsmall work-item">
-          <a href="images/GIF/beerDay.gif" className="image fit thumb">
-            <img src="images/beerpassport.png" alt="" />
+          <a href={Beerday} className="image fit thumb">
+            <img src={Beerday} alt="" />
           </a>
           <h3>BeerDay Helper</h3>
           <p>
