@@ -7,6 +7,8 @@ Creating a portfolio website allows to share and showcase work easily with the c
 
 ## Deployed Link
 
+https://aguado-romina.github.io/React-Portfolio/
+
 ## Images
 
 ![](reactportfolio/src/images/DeployedPortfolio.png)
@@ -21,7 +23,6 @@ When running the code locally the local host is set to port 3000
 
 React.js <br>
 99Inbound <br>
-Heroku <br>
 
 ## Contribute
 
