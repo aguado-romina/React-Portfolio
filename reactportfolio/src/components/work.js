@@ -1,8 +1,11 @@
 import React from "react";
 import Password from "../images/GIF/passwordgenerator.gif";
+import Passwordpng from "../images/passwordgenerator.png";
 import Readme from "../images/README.png";
 import Pochidoeggu from "../images/GIF/Pōchidoeggu.gif";
+import Pochidoeggupng from "../images/pochidoeggu.png";
 import Beerday from "../images/GIF/beerDay.gif";
+import Beerdaypng from "../images/beerpassport.png";
 
 function Work() {
   return (
@@ -11,7 +14,7 @@ function Work() {
       <div className="row">
         <article className="col-6 col-12-xsmall work-item">
           <a href={Password} className="image fit thumb">
-            <img src={Password} alt="" />
+            <img src={Passwordpng} alt="" />
           </a>
           <h3>Password Generator</h3>
           <p>
@@ -37,7 +40,7 @@ function Work() {
         </article>
         <article className="col-6 col-12-xsmall work-item">
           <a href={Pochidoeggu} className="image fit thumb">
-            <img src={Pochidoeggu} alt="" />
+            <img src={Pochidoeggupng} alt="" />
           </a>
           <h3>Pochidoeggu</h3>
           <p>
@@ -49,7 +52,7 @@ function Work() {
         </article>
         <article className="col-6 col-12-xsmall work-item">
           <a href={Beerday} className="image fit thumb">
-            <img src={Beerday} alt="" />
+            <img src={Beerdaypng} alt="" />
           </a>
           <h3>BeerDay Helper</h3>
           <p>

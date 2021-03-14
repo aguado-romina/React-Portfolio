@@ -3,7 +3,7 @@ import Resume from "../images/Profile.pdf";
 
 function Main() {
   return (
-    <div>
+    <div id="one">
       <header className="major">
         <h2>
           Creative and critical thinker who enjoys solving ambiguous problems
