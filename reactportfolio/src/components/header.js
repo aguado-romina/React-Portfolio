@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import Img from "../images/Aguado.Romina_8682.jpg";
 
 function Header() {
   return (
     <header id="header">
-      <div class="inner">
-        <a href="#" class="image avatar">
-          <img src="images/Aguado.Romina_8682.jpg" alt="" />
+      <div className="inner">
+        <a href="#" className="image avatar">
+          <img src={Img} alt="Romina Aguado" />
         </a>
         <h1>
           <strong>Hola! I'm Romina</strong>
@@ -13,9 +14,6 @@ function Header() {
           Currently enrolled at the UofM Coding Boot Camp - Full Stack Flex
           Program
           <br />
-          <p>
-            crafted by <a href="http://html5up.net">HTML5 UP</a>.{" "}
-          </p>
         </h1>
       </div>
     </header>

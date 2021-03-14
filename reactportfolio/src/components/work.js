@@ -4,9 +4,12 @@ function Work() {
   return (
     <section id="two">
       <h2>Recent Work</h2>
-      <div class="row">
-        <article class="col-6 col-12-xsmall work-item">
-          <a href="images/GIF/passwordgenerator.gif" class="image fit thumb">
+      <div className="row">
+        <article className="col-6 col-12-xsmall work-item">
+          <a
+            href="images/GIF/passwordgenerator.gif"
+            className="image fit thumb"
+          >
             <img src="images/password-generator.png" alt="" />
           </a>
           <h3>Password Generator</h3>
@@ -18,8 +21,8 @@ function Work() {
             screen sizes.
           </p>
         </article>
-        <article class="col-6 col-12-xsmall work-item">
-          <a href="images/README.png" class="image fit thumb">
+        <article className="col-6 col-12-xsmall work-item">
+          <a href="images/README.png" className="image fit thumb">
             <img src="images/README.png" alt="" />
           </a>
           <h3>README Generator</h3>
@@ -31,8 +34,8 @@ function Work() {
             index.js
           </p>
         </article>
-        <article class="col-6 col-12-xsmall work-item">
-          <a href="images/GIF/Pōchidoeggu.gif" class="image fit thumb">
+        <article className="col-6 col-12-xsmall work-item">
+          <a href="images/GIF/Pōchidoeggu.gif" className="image fit thumb">
             <img src="images/pochidoeggu.png" alt="" />
           </a>
           <h3>Pochidoeggu</h3>
@@ -43,8 +46,8 @@ function Work() {
             select your pet, and tend to your pet's needs.
           </p>
         </article>
-        <article class="col-6 col-12-xsmall work-item">
-          <a href="images/GIF/beerDay.gif" class="image fit thumb">
+        <article className="col-6 col-12-xsmall work-item">
+          <a href="images/GIF/beerDay.gif" className="image fit thumb">
             <img src="images/beerpassport.png" alt="" />
           </a>
           <h3>BeerDay Helper</h3>
@@ -56,24 +59,10 @@ function Work() {
             current weather time and temperature of said Brewery location.
           </p>
         </article>
-        <article class="col-6 col-12-xsmall work-item">
-          <a href="images/fulls/05.jpg" class="image fit thumb">
-            <img src="images/thumbs/05.jpg" alt="" />
-          </a>
-          <h3>Nunc enim commodo aliquet</h3>
-          <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-        </article>
-        <article class="col-6 col-12-xsmall work-item">
-          <a href="images/fulls/06.jpg" class="image fit thumb">
-            <img src="images/thumbs/06.jpg" alt="" />
-          </a>
-          <h3>Risus ornare lacinia</h3>
-          <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-        </article>
       </div>
-      <ul class="actions">
+      <ul className="actions">
         <li>
-          <a href="#" class="button">
+          <a href="#" className="button">
             Full Portfolio
           </a>
         </li>
