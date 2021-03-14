@@ -60,13 +60,6 @@ function Work() {
           </p>
         </article>
       </div>
-      <ul className="actions">
-        <li>
-          <a href="#" className="button">
-            Full Portfolio
-          </a>
-        </li>
-      </ul>
     </section>
   );
 }
