@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div class="inner">
-      <ul class="icons">
+    <div className="inner">
+      <ul className="icons">
         <li>
           <a
             href="http://twitter.com/RominaAguado1"
