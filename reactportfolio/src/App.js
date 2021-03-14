@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import React, { Component } from "react";
 import "./App.css";
 
@@ -12,13 +11,15 @@ import { render } from "react-dom";
 class App extends Component {
   render() {
     return (
-      <div ClassName="App">
+      <>
         <Header />
-        <Main />
-        <Work />
-        <Contact />
+        <div id="main">
+          <Main />
+          <Work />
+          <Contact />
+        </div>
         <Footer />
-      </div>
+      </>
     );
   }
 }

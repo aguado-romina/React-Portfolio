@@ -39,8 +39,8 @@ function Contact() {
                 type="checkbox"
                 name="grass_fed_aquamarine_wavy_computer"
                 value="1"
-                tabindex="-1"
-                autocomplete="no"
+                tabIndex="-1"
+                autoComplete="no"
               />
             </div>
             <ul className="actions">

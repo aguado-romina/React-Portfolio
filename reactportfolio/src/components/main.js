@@ -3,7 +3,7 @@ import React from "react";
 function Main() {
   return (
     <div>
-      <header class="major">
+      <header className="major">
         <h2>
           Creative and critical thinker who enjoys solving ambiguous problems
           <br />
@@ -18,9 +18,9 @@ function Main() {
         with an open-mind. Ready-set to combine my skills with my passion for
         building products and programs while leading a team to success.
       </p>
-      <ul class="actions">
+      <ul className="actions">
         <li>
-          <a href="images/Profile.pdf" target="_blank" class="button">
+          <a href="images/Profile.pdf" target="_blank" className="button">
             Resume
           </a>
         </li>
